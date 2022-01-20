@@ -1,9 +1,16 @@
 #Ejercicio 3 Hacer el proceso de la multiplicación sin utilizar el signo de multiplicar.
 
-Val1 = int(input("Ingresa el primer valor: "))
-Val2 = int(input("Ingresa el segundo valor: "))
+con = 0
+
+v1 = int(input("Ingrese un numero: "))
+v2 = int(input("Ingrese un numero: "))
+
+for i in range(v2):
+  con = con + v1
+print(con)
+
+  
+  
 
 
-
-for Val2 in range(5):
-    print("Val2")
+  
