@@ -1,9 +1,10 @@
 #Ejercicio 5 Realizar un programa para obtener el factorial de un número entero.
 
-con = 1
+var = int(input("Ingrese un numero: "))
 
-var1 = int(input("Escriba el numero: "))
+acum = 1
 
-for i in range(var1):
-  print(i)
-  
+for y in range(var, 0, -1):
+  acum = y * acum
+    
+print(acum)
