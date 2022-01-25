@@ -17,7 +17,7 @@ for i in range(7):
     if edad >= 18:
         contador1 = contador1 + 1
     elif edad % 2 == 0:
-        lista = lista.append + contador1
+        #lista = lista.append + contador1
     elif edad < 18:
         contador2 = contador2 + 1
         acumulador = acumulador + edad
