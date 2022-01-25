@@ -15,13 +15,18 @@ for i in range(7):
     persona = str(input("Dime tu nombre: "))
     edad = int(input("Dime tu edad: "))
     if edad >= 18:
-        contador1 = contador1 + 1
-    elif edad % 2 == 0:
-        #lista = lista.append + contador1
+      contador1 = contador1 + 1
+      if edad % 2 == 0:
+        lista.append(edad) 
+    #elif edad % 2 == 0 and edad >= 18:// Si una primera condicion se cumple se omite la parte inferior. Solucion un if anidado.
+      #lista.append(edad)
     elif edad < 18:
-        contador2 = contador2 + 1
-        acumulador = acumulador + edad
+      contador2 = contador2 + 1
+      acumulador = acumulador + edad
 
+print(contador1)
+print(contador2)
+print(acumulador)
 print(lista)
 
         
