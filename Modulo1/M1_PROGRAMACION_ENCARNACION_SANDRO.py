@@ -28,11 +28,13 @@ elif operacion == 2:
 elif operacion == 3:
     operacion = numero1 * numero2
     print("La multiplicacion de",numero1,"y",numero2,"es igual a", operacion)
+if numero2 == 0:
+  print("No se puede dividir un numero entre 0 porque simplemente no tiene un inverso multiplicativo")
 elif operacion == 4:
     operacion = numero1 // numero2
     print("La division de",numero1,"y",numero2,"es igual a", operacion)
 
-
+print("Fin del programa\n")
 
 
  
