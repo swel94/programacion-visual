@@ -9,7 +9,7 @@ contraseña = input("Ingresa la contraseña: ")
 fecha_compleños = (input("Ingresa tu fecha de cumpleaños: "))
 sexo = input("Ingresa tu sexo: ")
 
-login = input("Desea acceder a su cuenta y o n: ")
+login = input("Desea acceder a su cuenta? y / n: ")
 if login == "y":
   input("Ingresa tu correo: ")
   input("Ingresa tu contraseña: ")

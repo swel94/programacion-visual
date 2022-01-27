@@ -6,7 +6,8 @@ print("Vamos a calcular las ganacias de tu negocio en los ultimos 6 meses!\n")
 for i in range(1,7):
  meses = int(input("Ingrese cantidad: "))
  acumulador = acumulador + meses
- ganancias = acumulador * .20
+ 
+ganancias = acumulador * .20
  
 print("Las ganacias totales son: ", ganancias, "$")
 
